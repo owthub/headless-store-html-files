@@ -1,0 +1,51 @@
+<div class="container">
+    <h1 class="my-4">My Account</h1>
+    <div id="user-info">
+      <form>
+        <div class="mb-3 row">
+          <label for="formName" class="col-sm-2 col-form-label">Name</label>
+          <div class="col-sm-10">
+            <input
+              type="text"
+              id="formName"
+              class="form-control"
+              value="John Doe"  <!-- Example value, replace as needed -->
+              readonly
+            />
+          </div>
+        </div>
+  
+        <div class="mb-3 row">
+          <label for="formEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input
+              type="email"
+              id="formEmail"
+              class="form-control"
+              value="johndoe@example.com"  <!-- Example value, replace as needed -->
+              readonly
+            />
+          </div>
+        </div>
+  
+        <div class="mb-3 row">
+          <label for="formUsername" class="col-sm-2 col-form-label">Username</label>
+          <div class="col-sm-10">
+            <input
+              type="text"
+              id="formUsername"
+              class="form-control"
+              value="johndoe"  <!-- Example value, replace as needed -->
+              readonly
+            />
+          </div>
+        </div>
+  
+        <!-- Add more fields as needed -->
+      </form>
+    </div>
+    <div id="loading-message" style="display: none;">
+      <p>Loading user information...</p>
+    </div>
+  </div>
+  
